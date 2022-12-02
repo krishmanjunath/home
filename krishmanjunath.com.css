@@ -1,0 +1,111 @@
+body {
+    background-color: #FFD700;
+}
+
+.red {
+    color: #EA1C2C;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.red:hover {
+    color: #EA1C2C;
+    text-decoration: none;
+}
+
+.red-hover:hover {
+    color: #EA1C2C;
+}
+
+li > a:hover {
+    color: #23272b;
+}
+
+.grey {
+    background-color: #343a40;
+}
+
+a > img {
+    width: 200px;
+    height: 200px;
+    margin-top: 400px;
+}
+
+#important {
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 9px solid black;
+  }
+
+#square1 {
+    border-top: none !important;
+    border-left: none !important;
+}
+
+#square2 {
+    border-top: none !important;
+}
+
+#square3 {
+    border-top: none !important;
+    border-right: none !important;
+}
+
+#square4 {
+    border-left: none !important;
+}
+
+#square6 {
+    border-right: none !important;
+}
+
+#square7 {
+    border-left: none !important;
+    border-bottom: none !important;
+}
+
+#square8 {
+    border-bottom: none !important;
+}
+
+#square9 {
+    border-right: none !important;
+    border-bottom: none !important;
+}
+
+#board {
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+  flex-wrap: wrap;
+}
+
+.invisible {
+    color: #FFD700;
+}
+
+.large {
+    color: black;
+    font-size: 1500%;
+    margin-left: 75px;
+    margin-top: 0px;
+}
+
+#reset {
+    background-color: #3992db;
+    color: black;
+    margin-left: 812.5px;
+    font-size: 300%;
+    border: 3px solid #3992db;
+}
+
+.black {
+    color: black;
+}
